@@ -1,0 +1,39 @@
+body{
+    background-image: url(images/bg4.jpeg);
+    direction: rtl;
+    font-size: larger;
+    color: white;
+}
+h1.header-text{
+    text-align: center;
+    color: brown; 
+}
+p.welcome-text{
+    text-align: center;
+}
+table.login-table{
+    border: 2px solid black;
+}
+td.left{
+    text-align: left;
+    padding: 2px;
+}
+#img-container{
+    text-align: center;
+    padding: 100px;
+}
+div img{
+    width: 150px;
+    height: 150px;
+}
+p#copyrights{
+    text-align: center;
+    color: white;
+}
+input{
+    background-color: yellow;
+}
+input.amazing{
+    background-color:aquamarine ;
+}
+

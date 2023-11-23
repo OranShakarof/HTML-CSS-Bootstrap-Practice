@@ -1,0 +1,30 @@
+div.container{
+        margin: 20px;
+        height: 150px;
+        display: flex;
+}
+div > p{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    
+    
+    
+}
+.container > p{
+    height: 100px;
+    width: 25%;
+}
+.container {
+    align-items: center;
+    justify-content: space-evenly;
+}
+.red, p.red > a {
+    color: red;
+}
+.green, p.green > a{
+    color: lawngreen;
+}
+.yellow, p.yellow > a{
+    color: yellow;
+}

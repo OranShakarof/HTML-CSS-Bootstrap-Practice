@@ -1,0 +1,100 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(45deg, pink , white);
+}
+
+
+section.layout , section.layout > * {
+    border: 1px solid;    
+}
+
+
+section.layout{
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 16% 81% 3%;
+}
+
+
+header,footer{
+ grid-column: span 5;
+}
+
+
+main{
+    font-weight: bold;
+    grid-column: span 4;
+}
+
+main.pad > div {
+    padding: 30px;
+
+}
+nav > div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: blue;
+}
+
+
+div.amazing {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 40px; 
+}
+
+
+.amazing > img {
+    flex-basis: calc((100% - 20px * 4) / 6); /* Subtract any gap */
+    height: 150px;
+    border: 2px solid;
+}
+
+main.ltr > h3 {
+    padding: 15px;
+    text-align: left;
+}
+
+
+section.table > div{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+}
+
+
+section.table{
+    margin: auto;
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 50px;
+    max-width: 550px;
+}
+
+
+input,button,textarea{
+    width: 100%;
+}
+.cen{
+    display: grid;
+    align-items: center;
+}

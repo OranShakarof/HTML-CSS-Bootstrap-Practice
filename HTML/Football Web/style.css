@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(to right, aqua, white, aqua, white);
+  font-size: large;
+}
+
+ol {
+  display: table;
+  margin: auto;
+  color: goldenrod;
+}
+
+table,th,td {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.amazing {
+  background-image: linear-gradient(grey, white);
+}
+
+tr:nth-child(even) {
+  color: blue;
+  background-color: aliceblue;
+}
+
+tr:nth-child(odd) {
+  color: red;
+  background-color: aqua;
+}
+
+h1,h2,h3 {
+  color: gold;
+}
+
+img {
+  transition: 0.5s ease;
+}
+img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+div {
+  background-color: aliceblue;
+  height: 100px;
+  margin: auto;
+  border: 5px gray solid;
+  width: 500px;
+  border-radius: 15px 10px;
+  box-shadow: 3px 2px gray;
+}
+
+div:hover {
+  background-color: red;
+}
+
+div {
+  width: 200px;
+  transition: width 0.5s ease;
+}
+
+div:hover {
+  width: 300px;
+}

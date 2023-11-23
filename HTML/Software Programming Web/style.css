@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-image: url(images/pic1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: larger;
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    color: aqua;
+    font-size: large;
+}
+h1{
+    color: crimson;
+}

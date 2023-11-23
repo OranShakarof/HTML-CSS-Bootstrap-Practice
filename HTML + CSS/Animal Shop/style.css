@@ -1,0 +1,43 @@
+body{
+    direction: rtl;
+    background-color: #66BFBF;
+    font-size: larger;
+    color: brown;
+    font-style: italic;
+}
+h1,h2{
+    text-align: center;
+    color: floralwhite;
+}
+table,td{
+    margin: auto;
+}
+.cen{
+    text-align: center;
+
+}
+div{
+    text-align: center;
+}
+table img{
+    width: 200px;
+    height: 150px;
+    padding-inline: 5px;
+}
+table a{
+    padding-inline: 20px;
+}
+a:hover{
+    color: aliceblue;
+}
+form table{
+    margin-left: auto;
+    margin-right: 0px;
+}
+input,textarea,select,button{
+    background-color: wheat;
+    color: brown;
+}
+.right{
+    text-align: right;
+}
